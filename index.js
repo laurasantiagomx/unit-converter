@@ -20,11 +20,11 @@ const poundToKilo = 0.453592
 convertBtn.addEventListener("click", function(){
     let baseValue = inputEl.value
     
-    lengthEl.textContent = `${baseValue} meter = ${baseValue * meterToFeet.toFixed(3)} feet | ${baseValue} feet = ${baseValue * feetToMeter.toFixed(3)} meters  `
+    lengthEl.textContent = `${baseValue} meter = ${(baseValue * meterToFeet).toFixed(3)} feet | ${baseValue} feet = ${(baseValue * feetToMeter).toFixed(3)} meters  `
     
-    volumeEl.textContent = `${baseValue} liters = ${baseValue * literToGallon.toFixed(3)} gallons | ${baseValue} gallons = ${baseValue * gallonToLiters.toFixed(3)} liters`
+    volumeEl.textContent = `${baseValue} liters = ${(baseValue * literToGallon).toFixed(3)} gallons | ${baseValue} gallons = ${(baseValue * gallonToLiters).toFixed(3)} liters`
     
-    massEl.textContent = `${baseValue} kilos = ${baseValue * kiloToPound.toFixed(3)} pounds | ${baseValue} pounds = ${baseValue * poundToKilo.toFixed(3)} kilo`
+    massEl.textContent = `${baseValue} kilos = ${(baseValue * kiloToPound).toFixed(3)} pounds | ${baseValue} pounds = ${(baseValue * poundToKilo).toFixed(3)} kilo`
 })
 
 
