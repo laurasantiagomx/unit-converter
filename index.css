@@ -25,14 +25,14 @@ h1 {
 
 #input-el {
     display:block;
-    width: 80px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    padding: 10px 20px;
+    padding: 25px 30px;
     border: 2px solid #B295FF;
     border-radius: 5px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     background-color: #6943FF;
     color: white;
